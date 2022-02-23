@@ -1,0 +1,412 @@
+@import "null.css";
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  max-width: 510px;
+  margin: 0 auto;
+}
+
+.example {
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.link-example {
+  color: green;
+}
+
+.link-example:hover {
+  color: red;
+  text-decoration: underline;
+  cursor: default;
+}
+
+.example-text1 {
+  margin-bottom: 24px;
+}
+.text-example {
+  padding: 15px;
+}
+.text-example:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.example2 {
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.link-example2 {
+  color: chartreuse;
+  display: block;
+  margin-bottom: 30px;
+}
+.link-example2:hover {
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+.link-example2:active {
+  color: red;
+}
+/* hover над active всгда hover главнее */
+.example3 {
+  background-color: aquamarine;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.link-example3 {
+  background-color: blue;
+  display: inline-block;
+  padding: 50px 50px;
+  border-radius: 15px;
+  color: bisque;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 5px 0 0 palevioletred;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+.link-example3:hover {
+  margin: 2px 0 0 0;
+  box-shadow: 0 5px 0 0 palevioletred;
+  background-color: brown;
+}
+.link-example3:active {
+  margin: 4px 0 0 0;
+  box-shadow: inset 0 0 2px 0 black;
+}
+
+.example4 {
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+/*.link-example3:visited {
+  background-color: rgb(0, 255, 136);
+}*/
+
+/* Кнопка на котрую нажимают */
+.link-example4 {
+  background-color: blue;
+  display: inline-block;
+  padding: 50px 50px;
+  border-radius: 15px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 5px 0 0 palevioletred;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.link-example4:hover {
+  margin: 2px 0 0 0;
+  box-shadow: 0 5px 0 0 palevioletred;
+}
+.link-example4:active {
+  margin: 4px 0 0 0;
+  box-shadow: inset 0 0 2px 0 black;
+}
+
+.link-example4:visited {
+  background-color: rgb(0, 255, 136);
+}
+.example5 {
+  background-color: khaki;
+  margin-bottom: 50px;
+}
+.link-example5 {
+  background-color: blue;
+  display: inline-block;
+  padding: 50px 50px;
+  border-radius: 15px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 5px 0 0 palevioletred;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.link-example5:hover {
+  margin: 2px 0 0 0;
+  box-shadow: 0 5px 0 0 palevioletred;
+}
+.link-example5:active {
+  margin: 4px 0 0 0;
+  box-shadow: inset 0 0 2px 0 black;
+}
+
+.link-example5:visited {
+  background-color: rgb(0, 255, 136);
+}
+.link-example5:focus {
+  color: white;
+  outline: 5px dotted green;
+}
+/* outline: none отключает табуляцию , доступность верстки падает */
+
+.example6 {
+  background-color: bisque;
+  margin-bottom: 50px;
+}
+.link-example6 {
+  background-color: blue;
+  display: inline-block;
+  padding: 50px 50px;
+  border-radius: 15px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 5px 0 0 palevioletred;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.link-example6:hover {
+  margin: 2px 0 0 0;
+  box-shadow: 0 5px 0 0 palevioletred;
+}
+.link-example6:active {
+  margin: 4px 0 0 0;
+  box-shadow: inset 0 0 2px 0 black;
+}
+
+.link-example6:visited {
+  background-color: rgb(0, 255, 136);
+}
+.link-example6:focus {
+  color: white;
+  outline: 5px dotted green;
+}
+.text-example1 {
+  display: none;
+  background-color: aquamarine;
+  padding: 30px;
+}
+.text-example1:target {
+  display: block;
+  background-color: blueviolet;
+}
+.text-block p {
+  background-color: cadetblue;
+  padding: 15px;
+  margin: 0 0 20px 0;
+}
+.text-block p:first-child {
+  background-color: darksalmon;
+}
+/* .text-block *.first-child к любому первому  */
+.text-block1 p {
+  background-color: rgb(160, 95, 131);
+  padding: 15px;
+  margin: 0 0 20px 0;
+}
+.text-block1 p:first-of-type {
+  background-color: darksalmon;
+}
+.text-block2 p {
+  background-color: cadetblue;
+  padding: 15px;
+  margin: 0 0 20px 0;
+}
+.text-block2 p:last-child {
+  background-color: coral;
+}
+.text-block3 p {
+  background-color: cadetblue;
+  padding: 15px;
+  margin: 0 0 20px 0;
+}
+.text-block3 p:last-of-type {
+  background-color: darksalmon;
+}
+.text-block4 p {
+  background-color: cadetblue;
+  padding: 15px;
+  margin: 0 0 20px 0;
+}
+.text-block4 p:nth-child(2),
+.text-block4 p:nth-child(4) {
+  background-color: darkgrey;
+}
+
+.text-block5 p {
+  background-color: cadetblue;
+  padding: 15px;
+  margin: 0 0 20px 0;
+}
+/* четные */
+.text-block5 p:nth-child(odd) {
+  background-color: rgb(170, 37, 37);
+}
+/* не четные */
+.text-block5 p:nth-child(even) {
+  background-color: rgb(170, 37, 110);
+}
+.text-block6 p {
+  background-color: rgb(151, 163, 38);
+  padding: 15px;
+  margin: 0 0 20px 0;
+}
+
+.text-block6 p:nth-child(3n) {
+  background-color: rgb(170, 37, 110);
+}
+/*  .text-block6 p:nth-child(3n+4) каждый третий начиная с четвертого*/
+
+.text-block6 p:not(.text) {
+  background-color: darkblue;
+}
+
+.text-block6 p:not(:last-child) {
+  background-color: aquamarine;
+  margin-bottom: 0;
+}
+.text-block7 p {
+  background-color: cadetblue;
+  padding: 15px;
+  margin: 0 0 20px 0;
+}
+.text-block7 p:not(:last-child) {
+  background-color: rgb(140, 127, 255);
+  margin-bottom: 0;
+}
+/* висячие отступы */
+.text-block8 p {
+  background-color: cadetblue;
+  padding: 15px;
+  margin: 0 0 20px 0;
+}
+.text-block8 p:last-child {
+  margin-bottom: 0;
+}
+.block {
+  background-color: darkorange;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! любой последний элемент внутри родителя что бы не весело !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.block > *:last-child {
+  margin-bottom: 0;
+}
+.title-block {
+  font-size: 30px;
+  margin: 0 0 10px 0;
+}
+.text-block {
+  line-height: 130%;
+  margin: 0 0 20px 0;
+}
+.link-block {
+  color: yellow;
+  margin: 0 0 15px 0;
+}
+
+/* псевдоэлементы */
+.pseudo {
+  background-color: darkgrey;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.text-pseudo::first-line {
+  color: antiquewhite;
+}
+.text-pseudo::first-letter {
+  color: blue;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+BEFORE AFTER строчные
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!!!
+не работает без параметра CONTENT */
+.pseudo1 {
+  background-color: rgb(150, 79, 79);
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.text-pseudo1::before {
+  display: block;
+  content: "Я before";
+}
+.text-pseudo1::after {
+  display: block;
+  content: "Я after";
+}
+.pseudo2 {
+  background-color: rgb(94, 79, 150);
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.list-pseudo2 {
+  background-color: bisque;
+}
+.list-pseudo2 li {
+  padding: 0 0 0 30px;
+}
+.list-pseudo2 li::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin: 0 10px 0 -30px;
+  background: url(../img/images.jpg) 0 0 / 20px no-repeat;
+  transition: all 0.3s ease 0s;
+}
+.list-pseudo2 li:hover::before {
+  transform: rotate(360deg) scale(1.3);
+}
+
+/* ПОДСЕВДОЭЛЕМЕТЫ */
+.pseudo3 {
+  background-color: rgb(94, 79, 150);
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.title3 {
+  display: inline-block;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title3::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 30%; /* 30px это определенная длинна линии*/
+  margin: 5px 0 0 0;
+  background-color: black;
+}
+
+/* нумерация списка псевдоэлементом */
+.pseudo4 {
+  background-color: rgb(150, 79, 120);
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.title4 {
+  margin: 0 0 20px 0;
+  display: inline-block;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title4::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 30%; /* 30px это определенная длинна линии*/
+  margin: 5px 0 0 0;
+  background-color: rgb(4, 248, 65);
+}
+.num-list4 {
+  counter-reset: item;
+}
+.num-list4 li::before {
+  counter-increment: item;
+  content: "(" counter(item) ")";
+  margin: 0 10px 0 0;
+  color: brown;
+  font-size: 40px;
+}
+.num-list4 li:hover + li {
+  color: blueviolet;
+}
